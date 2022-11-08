@@ -1,7 +1,10 @@
-# starterProject
+# cloudstartGKK Matrikelnummer:
+8448455
+1813189
+9305041
 
-StarterProjekt für Praktikanten zum erlernen der grundlegenden Technik von Projekten des Cloud-Teams
 
+Team notes:
 ## Getting started
 
 Ordnerstruktur/wichtige Files:

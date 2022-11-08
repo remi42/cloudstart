@@ -28,3 +28,5 @@ docker-compose up -d
 
 echo "<= done"
 echo "Open http://localhost"
+
+pause
