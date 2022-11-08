@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="starterproject_cloud:war" />
       <artifact name="starterproject_cloud:war exploded" />
     </artifacts-to-build>
   </component>
@@ -11,11 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b07a46a-510c-4d20-8b8f-02e0b0dd5e41" name="Changes" comment="verbesserungen">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/starterproject_cloud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/starterproject_cloud.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/etc/nginx/inc/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/dev/etc/nginx/inc/default.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/hosts" beforeDir="false" afterPath="$PROJECT_DIR$/dev/hosts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
     </list>
     <list id="32b4a4d6-19ce-4d36-81b9-0f3d8f62673b" name="config" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,10 +86,11 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.21469648&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -107,6 +105,9 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat">
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
     <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/backend/api/hello/world" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -206,7 +207,19 @@
         </option>
       </method>
     </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="JavaScript Debug.Angular Application" />
+      <item itemvalue="npm.Angular CLI Server" />
       <item itemvalue="Shell Script.init.sh" />
       <item itemvalue="Tomcat Server.Tomcat" />
     </list>
@@ -229,6 +242,17 @@
       <workItem from="1666676817131" duration="1374000" />
       <workItem from="1666678453146" duration="1550000" />
       <workItem from="1666687856950" duration="3643000" />
+      <workItem from="1667810244219" duration="42000" />
+      <workItem from="1667810298091" duration="309000" />
+      <workItem from="1667810614762" duration="614000" />
+      <workItem from="1667818290197" duration="98000" />
+      <workItem from="1667818629488" duration="289000" />
+      <workItem from="1667835504548" duration="970000" />
+      <workItem from="1667836737710" duration="28000" />
+      <workItem from="1667937610181" duration="156000" />
+      <workItem from="1667939006243" duration="465000" />
+      <workItem from="1667939482938" duration="25000" />
+      <workItem from="1667939515805" duration="1223000" />
     </task>
     <task id="LOCAL-00001" summary="grundlegendes Projekt angelegt, JPA, Docker, beispielhafte REST Schnittstelle und EntityClass">
       <created>1657660600581</created>
